@@ -1,2 +1,2 @@
 # Discord link
-##https://discord.gg/y5UJyQTzFR
+>https://discord.gg/y5UJyQTzFR
