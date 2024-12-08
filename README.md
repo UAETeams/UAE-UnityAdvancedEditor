@@ -5,13 +5,16 @@
 >This tool is inspired from DevXUnity and features similar capabilities.
 >Although apk and ipa loads are not supported at the moment but they will be in the near future
 
->Note that this is only a Beta Version
+# Libraries Used
+>AssetsTool.Net
+>AssetsRipper.TextureDecoder
 
->The Public Release will not be open source and free
+# Some Images
 
-# Here are a few pictures of how this tool look like
+![image](https://github.com/user-attachments/assets/27bfc43b-e6c7-44d7-b47e-e2e2960d0e24)
+![image](https://github.com/user-attachments/assets/69551e47-2230-4cd6-9f9a-e283159321fa)
+![image](https://github.com/user-attachments/assets/5f457c4a-7605-4dff-be49-e9cf57a82a41)
 
-![image](https://github.com/user-attachments/assets/641ca388-a199-46f5-9007-b0d09bec1b48)
-![image](https://github.com/user-attachments/assets/dff4defe-07f3-48e8-81e6-b903391d8786)
-![image](https://github.com/user-attachments/assets/0b4f567d-25d6-47fa-94f9-baf1e565cffe)
 
+# Contributors
+>We are open for contributions as they will be helpful.
