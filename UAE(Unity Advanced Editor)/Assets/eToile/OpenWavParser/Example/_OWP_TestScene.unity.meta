@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 76861f11b7f7bf24495f751163ea3cee
+timeCreated: 1495096521
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90832
+  packageName: Open WAV Parser
+  packageVersion: 1.6
+  assetPath: Assets/eToile/OpenWavParser/Example/_OWP_TestScene.unity
+  uploadId: 560184

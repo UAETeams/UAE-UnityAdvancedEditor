@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 92eddcc20d26d9d40aaca35b54de097c
+timeCreated: 1494924576
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90832
+  packageName: Open WAV Parser
+  packageVersion: 1.6
+  assetPath: Assets/eToile/ExampleShared/PopUp/Anim/PopUp.controller
+  uploadId: 560184

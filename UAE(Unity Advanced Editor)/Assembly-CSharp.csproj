@@ -1,0 +1,2093 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{50B4BA49-BAB7-D2DA-63F9-2E45669440FC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_6000_0_5;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>6000.0.5f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="A:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="G:\My Documents\Desktop\UAE(Unity Advanced Editor)\Library\PackageCache\com.unity.transport\Analyzers\Unity.Transport.Analyzers.dll" />
+    <Analyzer Include="A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Hierarchy\HierarchyFieldConstructor.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Handles\GizmoHandleCollection.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\Raw\ExportRaw.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoFillMode3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Drag\IGizmoDragSession.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\QuaternionRef.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Scene Gizmo\Scene Gizmo Handles\SceneGizmoAxisCap.cs" />
+    <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\CircleShape3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Scene Gizmo\ISceneGizmo.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\CameraEx.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Drag &amp; Drop\IDragDropHandler.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\Shape3DRaycastMode.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Terrain Gizmos\TerrainGizmoAffectedObject.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Scene Gizmo\RTSceneGizmoCamera.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Light Gizmos\PointLightGizmo3DLookAndFeel.cs" />
+    <Compile Include="Assets\Scripts\Hierarchy\SceneExpand.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Light Gizmos\SpotLightGizmo3DSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D Quad\GizmoQuad3DBorderController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\Grid\SceneGridHotkeys.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Plane Slider\GizmoQuadPlaneSlider3DController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\CharacterControllerGizmo3DLookAndFeel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Transform\TransformSnapshot.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Data Management\MeshTransform.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Utilities\ObjectCloning.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\Json\AssetImportExport.cs" />
+    <Compile Include="Assets\ButtonEvents\ButtonLongPressListener.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Utilities\ObjectBounds.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoMultiAxisScaleMode.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\Shape2DPtContainMode.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Primitive Math\PlaneMath.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\RightAngTriangle3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\Grid\IXZGrid.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\Texture\ImportTex.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\CharacterControllerGizmo3DHotkeys.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\GizmoCollectionEnabledStateSnapshot.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Creation\PrismMesh.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Primitive Math\CylinderMath.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\GizmoRotationArc3DLookAndFeel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Camera\CameraPanSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Primitive Math\PolygonMath.cs" />
+    <Compile Include="Assets\Scripts\Hierarchy\FieldExpand.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Primitive Math\ArcMath.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\UndoRedo\IUndoRedoAction.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\Grid\RTSceneGrid.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\ObjectTransformGizmoSettings.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Plane Slider\GizmoPlaneSlider3DSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\2D Caps\GizmoCap2DControllerData.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Objects\ObjectKeyRotationSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\2D Circle\GizmoCircle2DBorderController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D RATriangle\GizmoRATriangle3DBorderControllerData.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Gizmo Behaviour\IGizmoBehaviour.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\ObjectTransformGizmo.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Resource Management\MaterialPool.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Input\InputDeviceType.cs" />
+    <Compile Include="Assets\Recyclable Scroll Rect\Demo\Scripts\PreviewContent.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\BoxColliderGizmo3DLookAndFeel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Scale Gizmo\ScaleGizmo.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Rendering\GLRenderer.cs" />
+    <Compile Include="Assets\Scripts\Managers\ExportWithConvertManager.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\UndoRedo\RTUndoRedo.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\CircleShape2D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\IRTTransformGizmoListener.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\PolygonShape2D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Primitive Math\TorusMath.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoTransformAxisMap2D.cs" />
+    <Compile Include="Assets\Scripts\Managers\ReplacerRemover.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\Grid\XZGridLookAndFeel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Drag\GizmoScreenDrag.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Camera\RTCameraBackground.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\3D Caps\GizmoCap3DCollection.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Light Gizmos\DirectionalLightGizmo3D.cs" />
+    <Compile Include="Assets\Net\client\Shared\NativeArrayExtensions.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\3D Caps\IGizmoCap3DController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripting Tutorials\Tut_5_CustomObjectLocalPivot.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\2D Circle\GizmoCircle2DBorder.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Utilities\ObjectSpawnUtil.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Sessions\InputDeviceScreenDragSession.cs" />
+    <Compile Include="Assets\Recyclable Scroll Rect\Demo\Scripts\RecyclableScrollerDemo.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\2D Quad\GizmoQuad2DBorderController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Move Gizmo\MoveGizmoLookAndFeel3D.cs" />
+    <Compile Include="Assets\Scripts\inspector\FieldInspector.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Data Management\RTMeshCompiler.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Scaling\GizmoScaleGuide.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\TriangPrismShape3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\SpriteRendererEx.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\GizmoEngineSettings.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\GameObjectEx.cs" />
+    <Compile Include="Assets\Scripts\Managers\ReplacerManager.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\RTCustomObjectInteractionSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Gizmo Behaviour\GizmoBehaviour.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Handles\GizmoHandleShape3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Rotation Gizmo\RotationGizmoHotkeys.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Camera\CameraFocusSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripting Tutorials\Tut_6_CustomWorldPivot.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Primitive Math\PrimitiveFactory.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\SphereColliderGizmoSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Core Types\YesNoAnswer.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Materials\GizmoSolidMaterial.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\CylTorusShape3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoTransform.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Light Gizmos\SpotLightGizmo3DHotkeys.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Handles\GizmoHandle.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\ArcShape3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D Quad\GizmoQuad3DBorderControllerData.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Line Slider\GizmoLineSlider3DControllerData.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D RATriangle\GizmoRATriangle3DBorderController.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\RTGApp.cs" />
+    <Compile Include="Assets\MusicSyncVisualizer\AudioSpectrum.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\TorusShape3D.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\Material\MatViewer.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\3D Caps\GizmoPyramidCap3DController.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Serializable Collections\SerializableDictionary.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\Texture\ExportTex.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\SphereColliderGizmo.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Line Slider\GizmoLineSlider2DCollection.cs" />
+    <Compile Include="Assets\eToile\OpenWavParser\Example\Scripts\2_WAVSave\SaveWavFile.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\2D Polygon\GizmoThickPolygon2DBorderController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Camera\CameraProjectionSwitchSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\BoxCollider3DChangedAction.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\Recyclable Scroll Rect\Main\Scripts\Recycling System\HorizontalRecyclingSystem.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoTransformAxisMap3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Camera\RTCameraViewports.cs" />
+    <Compile Include="Assets\Drag &amp; Drop\DragDropController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\CapsuleColliderGizmo3DLookAndFeel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Plane Slider\GizmoQuadPlaneSlider2DController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Transform\TransformAxis.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Data Management\MeshVertexChunk.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\Recyclable Scroll Rect\Main\Scripts\Recycling System\VerticalRecyclingSystem.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Light Gizmos\Light3DSnapshot.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Plane Slider\GizmoCirclePlaneSlider3DController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Creation\BoxMesh.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\GizmoRotationArc2DLookAndFeel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\RightAngTriangle2D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D Circle\GizmoCircle3DBorderController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\CapsuleColliderGizmo3DHotkeys.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\BVH\SphereTreeNodeRayHit.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoLine3DType.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Scaling\GizmoScaleGuideLookAndFeel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Line Slider\IGizmoLineSlider3DController.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\2D Polygon\IGizmoPolygon2DBorderController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Singleton\MonoSingleton.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\ConeShape2D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Plane Slider\GizmoPolygon2DBorderType.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Scene Gizmo\Scene Gizmo Handles\SceneGizmoMidCap.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\Texture\TextureFormatManager.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\SphereColliderGizmoHotkeys.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\Scripts\Managers\SaveManager.cs" />
+    <Compile Include="Assets\Net\client\Shared\NetConsoleMessage.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Utilities\ObjectVertexCollect.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Primitive Math\ConeMath.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Terrain Gizmos\TerrainGizmoLookAndFeel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\QuaternionEx.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Utilities\Object2ObjectSnap.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Light Gizmos\SpotLightGizmo3DLookAndFeel.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\ResourceHandle\ResourceHandle.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\ScenePhysicsMode.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\SceneSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Core Types\Priority.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Plane Slider\GizmoPlaneSlider2DLookAndFeel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Data Management\MeshVertexChunkCollectionDb.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\Grid\XZGridCell.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Camera\CameraMoveSettings.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Camera\CameraRotationSwitchSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Creation\TriangleMesh.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\Raw\ImportRaw.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoDragInfo.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\Vector2Ex.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripting Tutorials\Tut_2_MultipleTargetObjects.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\StringEx.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoShadeMode.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\BoxColliderGizmo3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoDimension.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Plane Slider\GizmoPlaneSlider2DSettings.cs" />
+    <Compile Include="Assets\Scripts\LoadScripts\LoadAdvanced.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\3D Caps\GizmoCap3DController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Plane Slider\GizmoPlaneSlider2D.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Scripts\Toggle Scripts\ToggleManager.cs" />
+    <Compile Include="Assets\Scripts\ResourceLoader\StreamExtensions.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\PlaneQuadrantId.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Line Slider\IGizmoLineSlider2DController.cs" />
+    <Compile Include="Assets\Scripts\ResourceLoader\ResourceLoader.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Drag\GizmoDragSession.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\CharacterControllerGizmo3DSettings.cs" />
+    <Compile Include="Assets\Animations\Long Press\Close.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Data Management\RTMesh.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\Borderless\WindowScript.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\CharacterController3DSnapshot.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoLine2DType.cs" />
+    <Compile Include="Assets\eToile\OpenWavParser\OpenWavParser.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Sessions\InputDevicePlaneDragSession3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\2D Polygon\GizmoPolygon2DBorder.cs" />
+    <Compile Include="Assets\eToile\OpenWavParser\Example\Scripts\3_WAVRead\LoadWavFile.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\PlaneEx.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\BoxCollider3DSnapshot.cs" />
+    <Compile Include="Assets\Net\client\Shared\NetLoader.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\eToile\ExampleShared\HelperScripts\ExitApp.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Materials\GizmoLabelMaterial.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\GameObjectRayHit.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\Audio\AudioLibrary.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\CharacterController3DChangedAction.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Handles\GizmoHandleShape2D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Move Gizmo\MoveGizmoLookAndFeel2D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\3D Caps\GizmoBoxCap3DController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\3D Caps\GizmoCap3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Plane Slider\GizmoCircle2DBorderType.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\GizmoRotationArcFillFlags.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\3D Scene\SceneClose.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Creation\PyramidMesh.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\3D Caps\GizmoSphereCap3DController.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\2D Caps\GizmoArrowCap2DController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\Recyclable Scroll Rect\Main\Scripts\Recycling System\RecyclingSystem.cs" />
+    <Compile Include="Assets\Scripts\Managers\ImportWithConvertmanager.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Utilities\ObjectPositionCalculator.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Drag\GizmoObjectVertexSnapDrag3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Data Management\MeshTree.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Rotation Gizmo\RotationGizmo.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Primitive Math\SegmentMath.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Line Slider\GizmoLineSlider2DControllerData.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\Json\JsonImport.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\EditorGUILayoutEx.cs" />
+    <Compile Include="Assets\Scripts\3dScene\Create3dScene.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Line Slider\GizmoLineSlider2DController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\AABB.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\2D Caps\IGizmoCap2DController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Drag\GizmoObjectVertexSnapSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\TerrainEx.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\Shape2DBorderDirection.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Editor UI\EditorToolbar.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Objects\ObjectRotationPivot.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Materials\GizmoCircularMaterial.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\2D Caps\GizmoQuadCap2DController.cs" />
+    <Compile Include="Assets\Scripts\LoadScripts\CInfo.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Axis.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\SegmentShape3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Effects\ColorRef.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Universal Gizmo\UniversalGizmoSettingsCategory.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Scaling\GizmoScalerHandle.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Utilities\Object2ObjectSnapDataDb.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\GizmoCap.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripting Tutorials\Tut_0_CreatingGizmos_and_AssigningObjects.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\QuadShape2D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D Quad\GizmoBoxQuad3DBorderController.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Primitive Math\PyramidMath.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\SphereColliderChangedAction.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Line Slider\GizmoLineSlider3DCollection.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\GraphicsEx.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Line Slider\GizmoCylinderLineSlider3DController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Utilities\FileSystem.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Universal Gizmo\UniversalGizmo.cs" />
+    <Compile Include="Assets\Recyclable Scroll Rect\Demo\Scripts\TypeFieldCell.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D RATriangle\GizmoThinRATriangle3DBorderController.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\Drag &amp; Drop\DragDropHandlerWebGL.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\2D Polygon\GizmoPolygon2DBorderControllerData.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Camera\RTFocusCamera.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Primitive Math\TriangleMath.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\2D Caps\GizmoCap2DCollection.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\SphereColliderGizmoLookAndFeel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Handles\IGizmoHandle.cs" />
+    <Compile Include="Assets\Scripts\Toggle Scripts\SelectedFieldInfo.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoHoverInfo.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Input\Hotkeys.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Primitive Math\BoxMath.cs" />
+    <Compile Include="Assets\Scripts\Logic\ButtonPressCheck.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\Shape2DExtentPoint.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\CapsuleColliderGizmo3DSettings.cs" />
+    <Compile Include="Assets\Net\client\Shared\OpCodes.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Plane Slider\GizmoPlaneSlider2DController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\TransformEx.cs" />
+    <Compile Include="Assets\Borderless\BorderlessWindow.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Move Gizmo\MoveGizmo.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Line Slider\GizmoLineSlider3DSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Move Gizmo\MoveGizmoSettings3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Drag\GizmoUniformScaleDrag3D.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\TextAsset\ImportText.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Creation\CircleMesh.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Light Gizmos\SpotLightGizmo3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Universal Gizmo\UniversalGizmoSettings2D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D Circle\GizmoCylindricalTorusCircle3DBorderController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Primitive Math\SphereMath.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Plane Slider\GizmoPlaneSlider3DController.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\RTScene.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Core Types\RenderPipelineId.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\2D Caps\GizmoCap2DLookAndFeel.cs" />
+    <Compile Include="Assets\eToile\ExampleShared\HelperScripts\SendEmail.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoFillMode2D.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\3D Caps\GizmoTriPrismCap3DController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Universal Gizmo\UniversalGizmoLookAndFeel2D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Utilities\Object2ObjectSnapData.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\ColorEx.cs" />
+    <Compile Include="Assets\Recyclable Scroll Rect\Main\Scripts\Interfaces\IRecyclableScrollRectDataSource.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Input\IInputDevice.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\TextAsset\ViewText.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Line Slider\GizmoLineSlider3D.cs" />
+    <Compile Include="Assets\Scripts\NoBorderClick.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Universal Gizmo\UniversalGizmoHotkeys.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Utilities\ObjectSnap.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Plane Slider\GizmoPlaneSlider3DCollection.cs" />
+    <Compile Include="Assets\Scripts\ResourceLoader\ResouceReader.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Sphere.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\SceneTree.cs" />
+    <Compile Include="Assets\Recyclable Scroll Rect\Demo\Scripts\RecyclableScroller.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Effects\ColorTransition.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D Quad\GizmoQuad3DBorder.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Drag\GizmoDblAxisScaleDrag3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Resource Management\ShaderPool.cs" />
+    <Compile Include="Assets\Scripts\ContextMenu\Context.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\Net\client\NativeWinAlert.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Plane Slider\IGizmoPlaneSlider3DController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Plane2D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Scene Gizmo\Scene Gizmo Handles\SceneGizmoCamPrjSwitchLabel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\BVH\SphereTreeNode.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D Circle\GizmoThinCircle3DBorderController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripting Tutorials\Tut_1_Enabling_and_Disabling_Gizmos.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\BVH\SphereTree.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\SceneRaycastPrecision.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\TextAsset\ExportText.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\IGizmoSlider.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\3D Caps\GizmoCap3DLookAndFeel.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Creation\SphereMesh.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Gizmo.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\Texture\zoomer.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\CapsuleColliderGizmo3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Scene Gizmo\SceneGizmo.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Line Slider\GizmoLineSlider3DLookAndFeel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Drag\GizmoSglAxisScaleDrag3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\PlaneDescriptor.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Resource Management\MeshPool.cs" />
+    <Compile Include="Assets\Scripts\Settings\Updater.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\TextAsset\TextAssetLibrary.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Camera\CameraViewVolume.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Terrain Gizmos\TerrainGizmoSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Editor UI\DragAndDropHandler.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\GizmoSlider.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoPlane2DType.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\BoxColliderGizmo3DSettings.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\RayEx.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Input\InputDeviceDeltaCapture.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Line Slider\GizmoLineSlider2D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Camera\CameraBackgroundSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Input\MouseButton.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D Circle\GizmoCircle3DBorder.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\2D Quad\GizmoThinQuad2DBorderController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Line Slider\GizmoThinLineSlider3DController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\2D Circle\GizmoThinCircle2DBorderController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\IHoverableSceneEntityContainer.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Drag\GizmoDragChannel.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\EqTriangle3D.cs" />
+    <Compile Include="Assets\Drag &amp; Drop\DropHandler.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\OBB.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Plane Slider\GizmoPolygonPlaneSlider2DController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D RATriangle\GizmoRATriangle3DBorder.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Primitive Math\CircleMath.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Creation\LineMesh.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Universal Gizmo\UniversalGizmoSettingsType.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\2D Caps\GizmoCircleCap2DController.cs" />
+    <Compile Include="Assets\Scripts\LoadScripts\Load.cs" />
+    <Compile Include="Assets\Scripts\Hierarchy\GizmoBool.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\Grid\XZGridSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoTransformSnapshot.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\IGizmoCap.cs" />
+    <Compile Include="Assets\Net\client\BaseClient.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Plane Slider\GizmoPlaneSlider3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Utilities\ObjectAlign.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripting Tutorials\Tut_4_Mesh_and_Center_Pivots.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\2D Polygon\GizmoPolygon2DBorderController.cs" />
+    <Compile Include="Assets\eToile\OpenWavParser\Example\Scripts\2_WAVSave\MicController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Plane Slider\GizmoPlaneSlider3DLookAndFeel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Camera\CameraOrbitSettings.cs" />
+    <Compile Include="Assets\Recyclable Scroll Rect\Main\Scripts\Interfaces\ICell.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\CharacterControllerGizmo3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Plane Slider\GizmoPlaneSlider3DControllerData.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\SceneRaycastFilter.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoPlane3DType.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Terrain Gizmos\TerrainGizmo.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\MathEx.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Plane Slider\IGizmoPlaneSlider2DController.cs" />
+    <Compile Include="Assets\eToile\ExampleShared\HelperScripts\DragSensitivity.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Editor UI\RLDEditorWindow.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\SceneRaycastHit.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Vector3Ref.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\EqTriangle2D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Primitive Math\QuadMath.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\Shape2D.cs" />
+    <Compile Include="Assets\MusicSyncVisualizer\AudioSyncColor.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Plane Slider\GizmoRATriangle3DBorderType.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\PlaneId.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\Json\JsonViewer.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D Circle\IGizmoCircle3DBorderController.cs" />
+    <Compile Include="Assets\Scripts\Hierarchy\HierarchyField.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\2D Caps\GizmoCap2DType.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\Shape2DBorderType.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Camera\CameraFocus.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\RTGizmosEngine.cs" />
+    <Compile Include="Assets\MusicSyncVisualizer\AudioSyncScale.cs" />
+    <Compile Include="Assets\Scripts\Viewer.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Scripts\Hierarchy\HierarchyTransforms.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\GizmoRotationArc3D.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Universal Gizmo\UniversalGizmoSettings3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Core Types\Vec3Samples.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\EditorUndoEx.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Demo Scenes\Demo.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\CylinderShape3D.cs" />
+    <Compile Include="Assets\Scenes\coroutine.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\RectEx.cs" />
+    <Compile Include="Assets\Drag &amp; Drop\DragDropHandlerWindows.cs" />
+    <Compile Include="Assets\Scripts\License\UniqueID.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoSpace.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\LayerEx.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Drag\GizmoPlaneDrag3D.cs" />
+    <Compile Include="Assets\Scripts\GoBack.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\3D Caps\GizmoCap3DType.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\CapsuleCollider3DChangedAction.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Line Slider\GizmoLineSlider2DLookAndFeel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\GizmoRotationArc2D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Scene Gizmo\SceneGizmoCamViewportUpdater.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\Json\JsonExport.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\Texture\TexViewer.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\AxisDescriptor.cs" />
+    <Compile Include="Assets\Recyclable Scroll Rect\Main\Scripts\Utils\UIExtension.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\GUIEx.cs" />
+    <Compile Include="Assets\Recyclable Scroll Rect\Main\Scripts\RecyclableScrollRect.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\ConeShape3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\Vector4Ex.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Creation\CylinderMesh.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Light Gizmos\Light3DChangedAction.cs" />
+    <Compile Include="Assets\Recyclable Scroll Rect\Demo\Scripts\DemoCell.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Data Management\MeshVertexChunkCollection.cs" />
+    <Compile Include="Assets\Net\client\Shared\NetMessage.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\SphereShape3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Editor UI\Settings.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\2D Circle\GizmoCircle2DBorderControllerData.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\ArcShape2D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Input\InputDeviceBase.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\3D Scene\Open3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Handles\GizmoHandleId.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Gizmo Behaviour\GizmoBehaviourCollection.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D Quad\GizmoThinQuad3DBorderController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Light Gizmos\PointLightGizmo3DSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\MaterialEx.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Objects\ObjectPool.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Scene Gizmo\Scene Gizmo Handles\SceneGizmoCap.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\Audio\ExportAudio.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Input\RTInput.cs" />
+    <Compile Include="Assets\Scripts\Classes\MaterialFields.cs" />
+    <Compile Include="Assets\Scripts\ReSize.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Plane Slider\GizmoCircle3DBorderType.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Plane Slider\GizmoQuad2DBorderType.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\Material\MatRotator.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoSnapMode.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Line Slider\GizmoThinLineSlider2DController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D Circle\GizmoTorusCircle3DBorderController.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Light Gizmos\PointLightGizmo3DHotkeys.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Universal Gizmo\UniversalGizmoConfig.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Scene Gizmo\ISceneGizmoCamViewportUpdater.cs" />
+    <Compile Include="Assets\Scripts\Asset Info Viewer\Audio\ViewAudio.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripting Tutorials\Tut_3_TransformSpaces.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\BoxShape3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Universal Gizmo\UniversalGizmoLookAndFeel3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Drag\GizmoSglAxisOffsetDrag3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\Grid\XZGridRayHit.cs" />
+    <Compile Include="Assets\Scripts\ClassDataTpk.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\SnapMath.cs" />
+    <Compile Include="Assets\Net\client\Shared\NetResourceLoad.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\Shape3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Terrain Gizmos\TerrainGizmoHotkeys.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Drag\GizmoDblAxisRotationDrag3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Line Slider\GizmoLineSlider3DController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Move Gizmo\MoveGizmoSettings2D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Drag\GizmoDblAxisOffsetDrag3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Primitive Math\PrismMath.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Creation\TorusMesh.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Rotation Gizmo\RotationGizmoSettings3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\BoxColliderGizmo3DHotkeys.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Handles\GizmoHandleHoverData.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\Primitive Math\Primitive Epsilons.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\2D Quad\GizmoQuad2DBorder.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\QuadShape3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Drag\GizmoSglAxisRotationDrag3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Input\TouchInputDevice.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Plane Slider\GizmoQuad3DBorderType.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\2D Quad\GizmoQuad2DBorderControllerData.cs" />
+    <Compile Include="Assets\eToile\ExampleShared\PopUp\PopUp.cs" />
+    <Compile Include="Assets\Scripts\DragHandle.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Camera\CameraPrjSwitchTransition.cs" />
+    <Compile Include="Assets\ButtonEvents\ButtonDoubleClickListener.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Plane Slider\GizmoPlaneSlider2DControllerData.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\2D Circle\IGizmoCircle2DBorderController.cs" />
+    <Compile Include="Assets\eToile\ExampleShared\HelperScripts\DragSnapper.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Camera\CameraSettings.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Creation\QuadMesh.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Resource Management\TexturePool.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Meshes\Data Management\RTMeshDb.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Input\RTInputDevice.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\SegmentShape2D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Input\MouseInputDevice.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Camera\CameraZoomSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\2D Caps\GizmoCap2D.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\SphereColliderSnapshot.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Scale Gizmo\ScaleGizmoLookAndFeel3D.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\UndoRedo\UndoRedoActions.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\Matrix4x4Ex.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Move Gizmo\MoveGizmoHotkeys.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Plane Slider\GizmoRATrianglePlaneSlider3DController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Core Data Types\GizmoOverrideColor.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\2D Polygon\GizmoThinPolygon2DBorderController.cs" />
+    <Compile Include="Assets\Scripts\Window.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Materials\GizmoLineMaterial.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Singleton\Singleton.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\2D Quad\IGizmoQuad2DBorderController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Camera\CameraLookAroundSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Line Slider\GizmoBoxLineSlider2DController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Collider Gizmos\CapsuleCollider3DSnapshot.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Light Gizmos\PointLightGizmo3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\MeshRayHit.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Terrain Gizmos\TerrainGizmoActions.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Editor UI\EditorToolbarTab.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D RATriangle\IGizmoRATriangle3DBorderController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Shapes\PyramidShape3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Application\IRLDApplication.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Scene Gizmo\SceneGizmoLookAndFeel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Line Slider\GizmoLineSlider2DSettings.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\2D Caps\GizmoCap2DController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\3D Caps\GizmoCap3DControllerData.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\Scripts\Settings\StaticSettings.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Light Gizmos\DirectionalLightGizmo3DLookAndFeel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Math\AxisSign.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Camera\CameraHotkeys.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Utilities\UniqueNameGen.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\3D Line Slider\GizmoBoxLineSlider3DController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\Vector3Ex.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D Circle\GizmoCircle3DBorderControllerData.cs" />
+    <Compile Include="Assets\Scripts\Hierarchy\RealtimeHierarchy.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\2D Plane Slider\GizmoCirclePlaneSlider2DController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Sliders\Borders\3D Quad\IGizmoQuad3DBorderController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Rotation Gizmo\RotationGizmoLookAndFeel3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Caps\3D Caps\GizmoConeCap3DController.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\RTSystemValues.cs" />
+    <Compile Include="Assets\Scripts\Logic\FileTypeDetector.cs" />
+    <Compile Include="Assets\PP Profile\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Utilities\ObjectSurfaceSnap.cs" />
+    <Compile Include="Assets\MusicSyncVisualizer\AudioSyncer.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Scale Gizmo\ScaleGizmoSettings3D.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Objects\PivotPointShapeType.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Extensions\SpriteEx.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\Scale Gizmo\ScaleGizmoHotkeys.cs" />
+    <Compile Include="Assets\eToile\ExampleShared\HelperScripts\GoToAssetStore.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Scene\SceneOverlapFilter.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Objects\GameObjectType.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Transform Gizmos\GizmoObjectTransformPivot.cs" />
+    <Compile Include="Assets\Runtime Transform Gizmos\Scripts\Gizmos\Scaling\GizmoDblAxisScaleMode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - License.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\PP Profile\PostProcessing Profiles\ForVolumetricLights\Readme.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Unity - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Resources\Shaders\RTApp_SimpleColor.shader" />
+    <None Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Resources\Shaders\RTApp_GizmoSolidHandle.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - AFL.txt" />
+    <None Include="Assets\ViewPort\ColorBoxSkybox.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\PP Profile\PostProcessing Profiles\Readme.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Resources\Shaders\RTApp_CircleCull.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\PP Profile\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\PP Profile\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Resources\Shaders\RTApp_TintedTexture.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\eToile\OpenWavParser\readme please.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Assets\colors.txt" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+    <None Include="Assets\PP Profile\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\Runtime Transform Gizmos\Docs\Readme.txt" />
+    <None Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Resources\Shaders\RTApp_TorusCull.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\PP Profile\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\eToile\ExampleShared\readme.txt" />
+    <None Include="Assets\PP Profile\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\ViewPort\ColorBoxHelper.cginc" />
+    <None Include="Assets\PP Profile\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Resources\Shaders\RTApp_LinearGradientCameraBk.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Resources\Shaders\RTApp_CylindricalTorusCull.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Runtime Transform Gizmos\Scripts\Runtime Package Common\Resources\Shaders\RTApp_XZGrid_Plane.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\ViewPort\grid shader.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GraphicsStateCollectionSerializerModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HierarchyCoreModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.HierarchyCoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputForUIModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputForUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MarshallingModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.MarshallingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MultiplayerModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.MultiplayerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ShaderVariantAnalyticsModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.ShaderVariantAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AccessibilityModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AdaptivePerformanceModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.AdaptivePerformanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.BuildProfileModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.BuildProfileModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreBusinessMetricsModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreBusinessMetricsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GIModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphicsStateCollectionSerializerModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GridAndSnapModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.GridAndSnapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GridModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.MultiplayerModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.MultiplayerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Physics2DModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PhysicsModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PropertiesModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SafeModeModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.SafeModeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderFoundryModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.ShaderFoundryModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SketchUpModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.SketchUpModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteMaskModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteShapeModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SubstanceModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TerrainModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextRenderingModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TilemapModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TreeModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.TreeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIAutomationModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIAutomationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UmbraModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VFXModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VideoModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.XRModule">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>Assets\Plugins\x86_64\System.Windows.Forms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AssetsTools.NET">
+      <HintPath>Assets\Plugins\Assets Ripper\x86_64\AssetsTools.NET.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Half">
+      <HintPath>Assets\Plugins\Assets Ripper\x86_64\System.Half.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AssetRipper.TextureDecoder">
+      <HintPath>Assets\Plugins\Assets Ripper\x86_64\AssetRipper.TextureDecoder.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="StbImageWriteSharp">
+      <HintPath>Assets\Plugins\Assets Ripper\x86_64\StbImageWriteSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="StbImageSharp">
+      <HintPath>Assets\Plugins\Assets Ripper\x86_64\StbImageSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Microsoft.CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.DataSetExtensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>A:\Program Files\Unity\Hub\Editor\6000.0.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Networking.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Networking.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.HighDefinition.Config.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rendering.Denoising.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Rendering.Denoising.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rendering.LightTransport.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.HighDefinition.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualEffectGraph.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualEffectGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.HighDefinition.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Networking.Transport">
+      <HintPath>Library\ScriptAssemblies\Unity.Networking.Transport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rendering.LightTransport.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.SysrootPackage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{3EFDAD87-0889-80E0-51DD-29446FEF0F83}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="ContextMenu.csproj">
+      <Project>{9633B4D1-03B0-FE21-4B7A-7E25F2463861}</Project>
+      <Name>ContextMenu</Name>
+    </ProjectReference>
+    <ProjectReference Include="RuntimeInspector.Runtime.csproj">
+      <Project>{49A64DD7-46E1-1E20-A173-23539BAC5544}</Project>
+      <Name>RuntimeInspector.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleFileBrowser.Runtime.csproj">
+      <Project>{8739237B-8F06-A0B0-9F78-19E1428BD054}</Project>
+      <Name>SimpleFileBrowser.Runtime</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

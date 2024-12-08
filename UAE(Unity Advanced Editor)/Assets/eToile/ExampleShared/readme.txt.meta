@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8d0464e652a9ab24aaa61ab61b77f482
+timeCreated: 1468600236
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90832
+  packageName: Open WAV Parser
+  packageVersion: 1.6
+  assetPath: Assets/eToile/ExampleShared/readme.txt
+  uploadId: 560184
