@@ -1,5 +1,5 @@
 # Discord link
->https://discord.gg/y5UJyQTzFR
+>[Discord](https://discord.gg/f7Q7s5Zv5D)
 
 # Point To Note
 >This tool is inspired from DevXUnity and features similar capabilities.
